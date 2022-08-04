@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyleSheet, View } from "react-native";
-import { useStylesheet } from "react-native-responsive-ui";
+import { useStylesheet } from "@yonoton/react-native-responsive-ui";
 
 export default function App() {
   useStylesheet([]);

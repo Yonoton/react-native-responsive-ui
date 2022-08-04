@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-responsive-ui": ["./src/index"]
+      "@yonoton/react-native-responsive-ui": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

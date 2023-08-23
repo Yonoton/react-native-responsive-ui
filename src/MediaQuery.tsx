@@ -6,6 +6,7 @@ import useDimensions from "./useDimensions";
 type Orientation = "landscape" | "portrait";
 
 export interface MediaQuery {
+  children?: any;
   minHeight?: number;
   maxHeight?: number;
   minWidth?: number;

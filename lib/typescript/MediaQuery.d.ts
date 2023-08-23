@@ -2,6 +2,7 @@ import type * as React from "react";
 import { PlatformOSType } from "react-native";
 declare type Orientation = "landscape" | "portrait";
 export interface MediaQuery {
+    children?: any;
     minHeight?: number;
     maxHeight?: number;
     minWidth?: number;
